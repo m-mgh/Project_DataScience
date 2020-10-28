@@ -2,14 +2,14 @@
 """
 Created on Wed Jan 29 00:04:25 2020
 
-@author: tutu_
+@author: Mercedeh_Mgh
 """
 
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-df=pd.read_csv( r"C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\china_gdp.csv")
+df=pd.read_csv( r"C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\china_gdp.csv")
 
 df.head()
 plt.figure(figsize=(8,5))

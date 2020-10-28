@@ -14,7 +14,7 @@ import scipy.optimize as optimize
 import matplotlib.pyplot as plt
 
 
-cell_df=pd.read_csv(r'C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\cell_samples.csv')
+cell_df=pd.read_csv(r'C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\cell_samples.csv')
 print(cell_df.shape)
 print(cell_df.head())
 print(cell_df.columns)

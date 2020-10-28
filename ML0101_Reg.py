@@ -10,7 +10,7 @@ import pandas as pd
 import pylab as pl
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\FuelConsumption.csv')
+df = pd.read_csv(r'C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\FuelConsumption.csv')
 
 cdf=df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
 #df.describe()

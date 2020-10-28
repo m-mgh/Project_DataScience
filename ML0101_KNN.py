@@ -13,7 +13,7 @@ import pandas as pd
 import matplotlib.ticker as ticker
 from sklearn import preprocessing
 
-df=pd.read_csv(r'C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\teleCust1000t.csv')
+df=pd.read_csv(r'C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\teleCust1000t.csv')
 print(df.head(),  
 df.columns.tolist(),
 df['custcat'].value_counts())

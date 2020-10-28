@@ -2,7 +2,7 @@
 """
 Created on Thu May 21 01:16:42 2020
 
-@author: tutu_
+@author: Mercedeh_Mgh
 """
 import zipfile
 import requests
@@ -17,15 +17,15 @@ import matplotlib.pyplot as plt
 # z=requests.get('https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip')
 
 # with zipfile.ZipFile(BytesIO(z.content)) as zf:
-# 	zf.extractall('C:\\Users\\tutu_\\OneDrive\\Desktop\\Data_Science\\IBM_ML\\zf')
+# 	zf.extractall('C:\\Users\\Mercedeh_Mgh\\OneDrive\\Desktop\\Data_Science\\IBM_ML\\zf')
 
 # zf=zipfile.ZipFile(BytesIO(z.content))
 
-movies_df=pd.read_csv(r'C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\zf\ml-latest\movies.csv')
+movies_df=pd.read_csv(r'C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\zf\ml-latest\movies.csv')
 print(movies_df.head(5))
 print(movies_df.columns)
 print(movies_df['title'].unique())
-rating_df=pd.read_csv(r'C:\Users\tutu_\OneDrive\Desktop\Data_Science\IBM_ML\zf\ml-latest\ratings.csv')
+rating_df=pd.read_csv(r'C:\Users\Mercedeh_Mgh\OneDrive\Desktop\Data_Science\IBM_ML\zf\ml-latest\ratings.csv')
 print(rating_df.columns)
 
 #Use regular expression to find the year in the titles but avoid including the year that is in some movies' title.

@@ -2,7 +2,7 @@
 """
 Created on Tue May 12 22:38:06 2020
 
-@author: tutu_
+@author: Mercedeh_Mgh
 """
 #DBSCAN stands for Density Based Spatial Clusteringof Applications with Noise
 #The wonderful attribute of DBSCAN algorithm is that it can find out any arbitrary shape cluster without getting affected by noise.
